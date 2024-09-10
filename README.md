@@ -50,6 +50,17 @@ Plug 'dmmulroy/tsc.nvim'
 
 Then run `:PlugInstall` to install the plugin.
 
+### Lazyvim
+```lua
+ {
+    "dmmulroy/tsc.nvim",
+    config = function()
+      require("tsc").setup()
+    end,
+  },
+
+```
+
 ### Notify
 
 For an enhanced UI/UX experience, it is recommended to install the [nvim_notify](https://github.com/rcarriga/nvim-notify) plugin as well. This plugin is optional, and the plugin will work without it.
